@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
+footer#site-footer {
+    border-top: 2px solid $primary_color;
+    clear: both;
+
+    .footer-info {
+        background: $light;
+        text-align: center;
+        padding: 30px 0 10px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.7;
+
+        p,
+        a {
+            font-size: 14px;
+        }
+
+        a:hover {
+            color: $accent;
+        }
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
+
+        .widget {
+            margin-bottom: 20px;
+            font-size: 14px;
+
+            .widget-title {
+                color: $heading_color;
+                display: block;
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+
+            table {
+                margin: auto;
+
+                @media (min-width: 768px) {
+                    margin: 0;
+                }
+
+                th,
+                td {
+                    font-size: 14px;
+                    padding: 3px;
+                }
+            }
+        }
+    }
+
+    .copybar {
+        background: $dark;
+        text-align: center;
+        padding: 8px 0;
+
+        .sep {
+            color: $light;
+        }
+
+        p {
+            color: $light;
+            font-size: 12px;
+            margin: 0;
+
+            a {
+                color: $light;
+                font-size: 12px;
+
+                &:hover {
+                    color: $accent;
+                }
+            }
+        }
+    }
+}
