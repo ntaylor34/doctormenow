@@ -124,7 +124,7 @@ gulp.task('css', function() {
                 'template-parts/*.php',
                 '**/*.php'
             ],
-            whitelist: ['dropdown-sub', 'nav-link', 'alignleft', 'alignright', 'aligncenter', 'opened', 'search-form', 'search-submit', 'error404', 'content', 'frm_primary_label']
+            whitelist: ['dropdown-sub', 'nav-link', 'alignleft', 'alignright', 'aligncenter', 'opened', 'search-form', 'search-submit', 'error404', 'content', 'frm_primary_label', 'aos-animate', 'aos-init', '[data-aos]', 'data-aos', 'animated', '[data-aos-easing=ease]', 'data-aos-easing=ease', '[data-aos=fade-up]', '[data-aos=fade-right]']
         })
       )
       .pipe(gulp.dest(dist.css))

@@ -4,7 +4,7 @@
 
 header#masthead {
 	padding: 34px 0;
-	background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/2021/02/nav-bg.jpg') center no-repeat;
+	background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/nav-bg.jpg') center no-repeat;
 	background-size: cover;
 	box-shadow: 0 0 8px #aaa;
 	border-top: 0;
@@ -163,11 +163,11 @@ header#masthead {
 								font-size: 4.9vw;
 							}
 							@media (min-width: 992px) {
-								font-size: 88%;
+								font-size: 78%;
 								color: $dark;
 							}
 							@media (min-width: 1200px) {
-								font-size: 108%;
+								font-size: 97%;
 							}
 							&:hover {
 								background: $light;
@@ -203,7 +203,7 @@ header#masthead {
 										color: $dark;
 									}
 									@media (min-width: 1200px) {
-										font-size: 108%;
+										font-size: 97%;
 									}
 								}
 
@@ -216,7 +216,7 @@ header#masthead {
 										color: $dark;
 									}
 									@media (min-width: 1200px) {
-										font-size: 106%;
+										font-size: 95%;
 									}
 
 									&:hover {
