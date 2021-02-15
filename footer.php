@@ -47,42 +47,46 @@
                     </div>
                 <?php endif; ?>
             </div>
-	        <?php if ( get_option('primary_email') or get_option('social_facebook') or get_option('social_twitter') or get_option('social_instagram') or get_option('social_linkedin') or get_option('social_pinterest') or get_option('social_youtube') or get_option('social_yelp') or get_option('social_houzz') or get_option('social_rss') ) : ?>
-		        <ul class="social-list">
-			        <?php if (get_option('primary_email')) : ?>
-				        <li><a href="mailto:<?php echo get_option('primary_email'); ?>"><i class="fa fa-envelope"></i></a></li>
-			        <?php endif; if (get_option('social_facebook')) : ?>
-				        <li><a href="<?php echo get_option('social_facebook'); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			        <?php endif; if (get_option('social_twitter')) : ?>
-				        <li><a href="<?php echo get_option('social_twitter'); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			        <?php endif; if (get_option('social_instagram')) : ?>
-				        <li><a href="<?php echo get_option('social_instagram'); ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			        <?php endif; if (get_option('social_linkedin')) : ?>
-				        <li><a href="<?php echo get_option('social_linkedin'); ?>" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-			        <?php endif; if (get_option('social_pinterest')) : ?>
-				        <li><a href="<?php echo get_option('social_pinterest'); ?>" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-			        <?php endif; if (get_option('social_youtube')) : ?>
-				        <li><a href="<?php echo get_option('social_youtube'); ?>" target="_blank"><i class="fa fa-youtube"></i></a></li>
-			        <?php endif; if (get_option('social_yelp')) : ?>
-				        <li><a href="<?php echo get_option('social_yelp'); ?>" target="_blank"><i class="fa fa-yelp"></i></a></li>
-                    <?php endif; if (get_option('social_houzz')) : ?>
-                        <li><a href="<?php echo get_option('social_houzz'); ?>" target="_blank"><i class="fa fa-houzz"></i></a></li>
-			        <?php endif; if (get_option('social_rss')) : ?>
-				        <li><a href="<?php echo get_option('social_rss'); ?>" target="_blank"><i class="fa fa-rss"></i></a></li>
-			        <?php endif; ?>
-		        </ul>
-	        <?php endif; ?>
         </div>
     </div><!-- .footer-info -->
 <?php endif; ?>
-
-    <div class="container-fluid copybar">
-        <div class="container">
-            <p>
-	            &copy; <?php echo current_time('Y'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><span class="sep"> | </span><?php printf( esc_html__( 'Website by %1$s', 'lrm' ), "<a href='".esc_url('https://www.linkrightmedia.com/')."' rel='designer'>".__( 'Link Right Media', 'lrm' )."</a>" ); ?>
-            </p>
+<div class="copybar">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <p>
+                    &copy; <?php echo current_time('Y'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><span class="sep"> | </span><?php printf( esc_html__( 'Website by %1$s', 'lrm' ), "<a href='".esc_url('https://www.linkrightmedia.com/')."' rel='designer'>".__( 'Link Right Media', 'lrm' )."</a>" ); ?>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+            <?php if ( get_option('primary_email') or get_option('social_facebook') or get_option('social_twitter') or get_option('social_instagram') or get_option('social_linkedin') or get_option('social_pinterest') or get_option('social_youtube') or get_option('social_yelp') or get_option('social_houzz') or get_option('social_rss') ) : ?>
+                <ul class="social-list">
+                    <?php if (get_option('primary_email')) : ?>
+                        <li><a href="mailto:<?php echo get_option('primary_email'); ?>"><i class="fa fa-envelope"></i></a></li>
+                    <?php endif; if (get_option('social_facebook')) : ?>
+                        <li><a href="<?php echo get_option('social_facebook'); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <?php endif; if (get_option('social_twitter')) : ?>
+                        <li><a href="<?php echo get_option('social_twitter'); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <?php endif; if (get_option('social_instagram')) : ?>
+                        <li><a href="<?php echo get_option('social_instagram'); ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <?php endif; if (get_option('social_linkedin')) : ?>
+                        <li><a href="<?php echo get_option('social_linkedin'); ?>" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <?php endif; if (get_option('social_pinterest')) : ?>
+                        <li><a href="<?php echo get_option('social_pinterest'); ?>" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+                    <?php endif; if (get_option('social_youtube')) : ?>
+                        <li><a href="<?php echo get_option('social_youtube'); ?>" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <?php endif; if (get_option('social_yelp')) : ?>
+                        <li><a href="<?php echo get_option('social_yelp'); ?>" target="_blank"><i class="fa fa-yelp"></i></a></li>
+                    <?php endif; if (get_option('social_houzz')) : ?>
+                        <li><a href="<?php echo get_option('social_houzz'); ?>" target="_blank"><i class="fa fa-houzz"></i></a></li>
+                    <?php endif; if (get_option('social_rss')) : ?>
+                        <li><a href="<?php echo get_option('social_rss'); ?>" target="_blank"><i class="fa fa-rss"></i></a></li>
+                    <?php endif; ?>
+                </ul>
+            <?php endif; ?>
         </div>
-    </div><!-- copybar -->
+    </div>
+</div><!-- copybar -->
 
 </footer><!-- #site-footer -->
 

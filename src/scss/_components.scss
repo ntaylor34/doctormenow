@@ -96,7 +96,7 @@ ul.social-list {
 	margin: 0 auto;
 
 	@media (min-width: 768px) {
-		text-align: left
+		text-align: right;
 	}
 
 	li {
@@ -109,6 +109,29 @@ ul.social-list {
 
 			&:hover {
 				color: $accent;
+			}
+			.fa {
+				border: 1px solid $light;
+				border-radius: 100%;
+				color: $light;
+				transition: all ease-in-out 0.2s;
+				&:hover {
+					background: $accent;
+					color: $light;
+					border-color: $accent;
+				}
+			}
+			.fa-facebook {
+				padding: 8px 12px;
+			}
+			.fa-twitter {
+				padding: 8px;
+			}
+			.fa-instagram {
+				padding: 8px 10px;
+			}
+			.fa-linkedin {
+				padding: 8px 9px;
 			}
 
 			i {
@@ -196,4 +219,10 @@ a.btn-2 {
 }
 .green {
 	color: $primary_color;
+}
+.frm_primary_label {
+	display: none !important;
+}
+.frm_button_submit {
+	box-shadow: none !important;
 }

@@ -51,6 +51,9 @@ html {
 			font-family: $os;
 			font-weight: 500;
 		}
+		b {
+			font-weight: 700;
+		}
 		
 		h1 {
 			font-size: 62px;
@@ -80,7 +83,9 @@ html {
 				padding-left: 0;
 			}
 		}
-
+		.container {
+			max-width: 1400px;
+		}
 		#content {
 			padding-bottom: 40px;
 		}

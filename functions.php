@@ -209,3 +209,8 @@ require get_template_directory() . '/inc/theme-options.php';
 require get_template_directory() . '/inc/hero-image.php';
 // Require the Bootstrap Nav-Walker
 require_once( get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php' );
+
+function custom_excerpt_length( $length ) {
+	return 10;
+	}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
