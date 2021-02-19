@@ -4,7 +4,7 @@
 
 header#masthead {
 	padding: 34px 0;
-	background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/nav-bg.jpg') center no-repeat;
+	background: url('/wp-content/uploads/nav-bg.jpg') center no-repeat;
 	background-size: cover;
 	box-shadow: 0 0 8px #aaa;
 	border-top: 0;
@@ -16,7 +16,10 @@ header#masthead {
 		padding-left: 0;
 	}
 	.action-bar {
-		margin-bottom: -35px;
+		margin-bottom: 10px;
+		@media (min-width: 768px) {
+			margin-bottom: -35px;
+		}
 		.btn-1 {
 			background: transparent;
 			border: 1px solid $light;
@@ -27,9 +30,19 @@ header#masthead {
 				border: 1px solid $secondary_color;
 			}
 		}
+		.login-btns {
+			text-align: center;
+			@media (min-width: 768px) {
+				text-align: right;
+			}
+		}
 	}
 
 	.header-logo {
+		text-align: center;
+		@media (min-width: 768px) {
+			text-align: left;
+		}
 		@media (min-width: 992px) {
 			margin-right: 25px;
 		}
@@ -39,7 +52,7 @@ header#masthead {
 
 			img {
 				margin: 0 auto 10px;
-				width: 100%;
+				width: 85%;
 				border-radius: 5px;
 
 				@media (min-width: 992px) {

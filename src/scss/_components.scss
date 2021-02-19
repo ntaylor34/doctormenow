@@ -175,7 +175,7 @@ a.btn-1 {
 	border-radius: 8px;
 
 	&:hover {
-		background: $dark;
+		background: $secondary_color;
 		color: $light;
 	}
 }
@@ -225,4 +225,16 @@ a.btn-2 {
 }
 .frm_button_submit {
 	box-shadow: none !important;
+}
+.mobile-only {
+	display: block;
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+.desktop-only {
+	display: none;
+	@media (min-width: 768px) {
+		display: block;
+	}
 }

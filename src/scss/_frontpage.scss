@@ -4,7 +4,7 @@
 
 #front-page {
     #home-hero {
-      background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0.8) 100%), url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/home-hero.jpg');
+      background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0.8) 100%), url('/wp-content/uploads/home-hero.jpg');
       background-repeat: no-repeat;
       background-position: 76%;
       background-size: 350%;
@@ -21,7 +21,7 @@
         padding-top: 170px;
       }
       @media (min-width: 992px) {
-        background-image: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/home-hero.jpg');
+        background-image: url('/wp-content/uploads/home-hero.jpg');
         background-position: center;
         background-size: cover;
       }
@@ -110,7 +110,7 @@
   }
 
   #covid-statement {
-    background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/covid-bg.jpg') center no-repeat;
+    background: url('/wp-content/uploads/covid-bg.jpg') center no-repeat;
     background-size: cover;
     padding: 100px 0;
     h2, p {
@@ -234,7 +234,7 @@
     .cols {
       margin-top: 100px;
       overflow: hidden;
-      @media (min-width: 768px) {
+      @media (min-width: 1290px) {
         overflow: visible;
       }
       .container {
@@ -264,7 +264,7 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/medical-care-image.jpg') center no-repeat;
+          background: url('/wp-content/uploads/medical-care-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -278,7 +278,7 @@
           @media (min-width: 768px) {
             flex: 100%;  
           }
-          background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/dermatology-image.jpg') center no-repeat;
+          background: url('/wp-content/uploads/dermatology-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -288,7 +288,7 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/wellness-prevention-image.jpg') center no-repeat;
+          background: url('/wp-content/uploads/wellness-prevention-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -302,7 +302,7 @@
           @media (min-width: 768px) {
             flex: 100%;
           }
-          background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/urgent-care-image.jpg') center no-repeat;
+          background: url('/wp-content/uploads/urgent-care-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -312,14 +312,14 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/sexual-health-image.jpg') center no-repeat;
+          background: url('/wp-content/uploads/sexual-health-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
     }
   }
   #faq {
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/faq-bg.jpg');
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('/wp-content/uploads/faq-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15%;  
@@ -328,7 +328,7 @@
       background-position: left;
     }
     @media (min-width: 992px) {
-      background-image: url('http://development.linkrightmedia.com/doctormenow/wp-content/uploads/faq-bg.jpg');
+      background-image: url('/wp-content/uploads/faq-bg.jpg');
     }
     .col-sm-12 {
       padding: 0 30px;
@@ -379,8 +379,13 @@
         text-align: left;
         text-decoration: none !important;
         color: $light;
+        font-size: 22px;
+        white-space: normal;
         background: $primary_color;
         border: 1px solid $primary_color;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
       }
       .collapsed {
         background: transparent;
@@ -451,13 +456,13 @@
         top: -45px;
         margin-right: 20px;
         @media (min-width: 576px) {
-          width: 32%;
+          width: 35%;
         }
         @media (min-width: 768px) {
-          width: 25%;
+          width: 27%;
         }
         @media (min-width: 992px) {
-          width: 17%;
+          width: 23%;
         }
         span {
           color: $light;

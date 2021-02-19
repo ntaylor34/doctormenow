@@ -12,7 +12,7 @@
 <section id="home-hero" role="banner">
 	<div class="container">
 		<div class="header">
-			<h1><span class="green">Best Care</span> Possible<br>
+			<h1><span class="green">Best Care</span> Possible<br class="desktop-only">
 					At An <span class="green">Affordable Cost</span></h1>
 			<hr>
 		</div>
@@ -32,7 +32,7 @@
 		<div class="row justify-content-center">
 			<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-duration="800">
 				<h3>STEP 1</h3>
-				<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/step-1.png" alt="graphic of a man and woman with man holding child" class="img-fluid">
+				<img src="/wp-content/uploads/step-1.png" alt="graphic of a man and woman with man holding child" class="img-fluid">
 				<div class="content">
 					<h4>REGISTER NOW</h4>
 					<p>Schedule and pay for your appointment.</p>
@@ -40,7 +40,7 @@
 			</div>
 			<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
 				<h3>STEP 2</h3>
-				<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/step-2.png" alt="graphic of a tablet with a doctor writing in a chart" class="img-fluid">
+				<img src="/wp-content/uploads/step-2.png" alt="graphic of a tablet with a doctor writing in a chart" class="img-fluid">
 				<div class="content content-middle">
 					<h4>REQUEST A VISIT</h4>
 					<p>Choose a time/day that is convenient for you. Our physicians are available 24/7. Same day appointments available.</p>
@@ -48,7 +48,7 @@
 			</div>
 			<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
 				<h3>STEP 3</h3>
-				<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/step-3.png" alt="graphic of a family in front of a laptop with a doctor coming out of the laptop" class="img-fluid">
+				<img src="/wp-content/uploads/step-3.png" alt="graphic of a family in front of a laptop with a doctor coming out of the laptop" class="img-fluid">
 				<div class="content">
 					<h4>FEEL BETTER</h4>
 					<p>Our healthcare provider will reach out to you.</p>
@@ -89,7 +89,7 @@
 		<div class="row boxes">
 			<div class="col-sm-6 col-md-6 col-lg-3">
 				<div class="content blue">
-					<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/pill-bottle-w-hand-icon.png" alt="icon of a hand under a pill bottle in a circle" class="img-fluid">
+					<img src="/wp-content/uploads/pill-bottle-w-hand-icon.png" alt="icon of a hand under a pill bottle in a circle" class="img-fluid">
 					<p class="text-header"><b>What We Treat</b></p>
 					<p class="text">Medical | Dermatology |
 						Wellness & Prevention |
@@ -101,7 +101,7 @@
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
 				<div class="content green">
-					<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/pill-bottle-icon.png" alt="icon of a pill bottle in a circle" class="img-fluid">
+					<img src="/wp-content/uploads/pill-bottle-icon.png" alt="icon of a pill bottle in a circle" class="img-fluid">
 					<p class="text-header"><b>How Much Does it Cost?</b></p>
 					<p class="text">With our telemedicine services, we have made it affordable to seek care again, and you can file your receipt with your insurance company.</p>
 					<div class="triangle"></div>
@@ -110,7 +110,7 @@
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
 				<div class="content blue">
-					<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/band-aid-icon.png" alt="icon of two band-aids in a circle" class="img-fluid">
+					<img src="/wp-content/uploads/band-aid-icon.png" alt="icon of two band-aids in a circle" class="img-fluid">
 					<p class="text-header"><b>How DoctorMeNow Works</b></p>
 					<p class="text">Our providers include board-certified physicians, nurse practitioners, and physician assistants that are available through your phone or computer. </p>
 					<div class="triangle"></div>
@@ -119,7 +119,7 @@
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
 				<div class="content green">
-					<img src="http://development.linkrightmedia.com/doctormenow/wp-content/uploads/test-tubes-icon.png" alt="icon of three test tubes in a holder in a circle" class="img-fluid">
+					<img src="/wp-content/uploads/test-tubes-icon.png" alt="icon of three test tubes in a holder in a circle" class="img-fluid">
 					<p class="text-header"><b>Pediatric & Adult Care</b></p>
 					<p class="text">From newborns to adults, we will take care of you and your whole family.</p>
 					<a href="#" class="btn-box">LEARN MORE</a>
@@ -206,7 +206,7 @@
 					<div class="card">
 						<div class="card-header" id="headingOne">
 							<h5 class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									Refunds / Cancellations / Reschedule
+									Refunds / Cancellations / Reschedule <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 
@@ -219,7 +219,7 @@
 					<div class="card">
 						<div class="card-header" id="headingTwo">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									Accepted Forms of Payment
+									Accepted Forms of Payment <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -231,7 +231,7 @@
 					<div class="card">
 						<div class="card-header" id="headingThree">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									Insurance
+									Insurance <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -243,7 +243,7 @@
 					<div class="card">
 						<div class="card-header" id="headingFour">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-									Minors
+									Minors <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -255,7 +255,7 @@
 					<div class="card">
 						<div class="card-header" id="headingFive">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-									Do I still need a Primary Care Doctor?
+									Do I still need a Primary Care Doctor? <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -267,7 +267,7 @@
 					<div class="card">
 						<div class="card-header" id="headingSix">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-									How do I get my prescription?
+									How do I get my prescription? <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
@@ -279,7 +279,7 @@
 					<div class="card">
 						<div class="card-header" id="headingSeven">
 							<h5 class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-									Do you prescribe pain medications?
+									Do you prescribe pain medications? <i class="fas fa-chevron-right"></i>
 							</h5>
 						</div>
 						<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">

@@ -36,7 +36,7 @@
 
 	<header id="masthead" role="banner">
 		<div class="action-bar container">
-			<div class="login-btns text-right">
+			<div class="login-btns">
 					<a href="#" class="btn-1">Patient Login</a>
 					<a href="" class="btn-1">Providers</a>
 			</div>

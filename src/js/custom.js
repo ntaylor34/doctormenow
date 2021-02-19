@@ -30,4 +30,14 @@ jQuery(document).ready(function($){
     $(".nav-links .nav-previous a, .nav-links .nav-next a").removeAttr('rel');
     //Init AOS Entrance Animation
     AOS.init();
+
+    $(".collapse.show").each(function(){
+        $(this).prev(".card-header").find(".fas").addClass("fa-chevron-down").removeClass("fa-chevron-right");
+    });
+
+    $(".collapse").on('show.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fas").removeClass("fa-chevron-right").addClass("fa-chevron-down");
+    }).on('hide.bs.collapse', function(){
+        $(this).prev(".card-header").find(".fas").removeClass("fa-chevron-down").addClass("fa-chevron-right");
+    });
 });
