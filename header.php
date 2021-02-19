@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row align-items-end">
+			<div class="row align-items-end logo-nav">
 				<div class="col-sm-12 col-md-4">
 					<?php if ( get_option('site_logo') ) : ?>
 						<div class="header-logo">
