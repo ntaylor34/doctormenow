@@ -15,19 +15,14 @@
 get_header(); ?>
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-8 col-md-9">
-			<main id="main" role="main">
-				<?php while ( have_posts() ) : the_post();
-					echo "<div class=\"breadcrumbs\">";
-					get_breadcrumbs($post);
-					echo "</div>";
-					get_template_part( 'template-parts/content', 'page' );
-				endwhile; ?>
-			</main><!-- #main -->
-		</div>
-		<?php get_sidebar(); ?>
-	</div>
+	<main id="main" role="main">
+		<?php while ( have_posts() ) : the_post();
+			echo "<div class=\"breadcrumbs\">";
+			get_breadcrumbs($post);
+			echo "</div>";
+			get_template_part( 'template-parts/content', 'page' );
+		endwhile; ?>
+	</main><!-- #main -->
 </div>
 
 <?php
