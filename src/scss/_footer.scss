@@ -2,7 +2,7 @@
    Footer Styles
    ========================================================================== */
 #faq {
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('/doctormenow/wp-content/uploads/faq-bg.jpg');
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('/wp-content/uploads/faq-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15%;  
@@ -11,7 +11,7 @@
       background-position: left;
     }
     @media (min-width: 992px) {
-      background-image: url('/doctormenow/wp-content/uploads/faq-bg.jpg');
+      background-image: url('/wp-content/uploads/faq-bg.jpg');
     }
     .col-sm-12 {
       padding: 0 30px;
