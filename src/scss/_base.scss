@@ -63,6 +63,10 @@ html {
 			font-size: 47px;
 		}
 
+		h3 {
+			font-size: 40px;
+		}
+
 		a {
 			transition: all 0.2s ease-in-out;
 		}
@@ -113,29 +117,16 @@ html {
 			.entry-content {
 				margin-top: 0;
 
-				h2 {
-					font-size: 21px;
-					margin: 30px 0 15px;
-
-					@media (min-width: 768px) {
-						font-size: 24px;
-					}
-
-					@media (min-width: 992px) {
-						font-size: 27px;
-					}
-				}
-
 				h3 {
-					font-size: 18px;
+					font-size: 35px;
 					margin: 25px 0 10px;
 
 					@media (min-width: 768px) {
-						font-size: 20px;
+						font-size: 35px;
 					}
 
 					@media (min-width: 992px) {
-						font-size: 23px;
+						font-size: 40px;
 					}
 				}
 
@@ -186,12 +177,9 @@ html {
 					text-decoration: underline;
 				}
 
-				img,
-				figure {
-					border: 1px solid #ccc;
-					background: #fff;
-					padding: 5px;
-					margin: 5px auto 10px;
+				img {
+					border: 3px solid $secondary_color;
+					margin: 5px;
 
 					@media (min-width: 768px) {
 						width: initial;

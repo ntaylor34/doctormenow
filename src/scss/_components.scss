@@ -25,32 +25,34 @@
 
 /* Page/Post Header Banner */
 header.banner-header {
-	text-align: center;
-	padding: 50px 0;
+	padding: 150px 0;
 	margin-bottom: 40px;
 	background: $dark;
-
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	h1.banner-title {
-		font-size: 26px;
-		margin: 0;
-		color: $light;
-		text-shadow: 2px 2px 1px #000;
-
+		font-size: 45px;
+		display: table;
 		@media (min-width: 768px) {
-			font-size: 30px;
-		}
-
-		@media (min-width: 992px) {
-			font-size: 34px;
-		}
-
-		span {
-			@extend h1.banner-title;
-			font-family: $os;
-			font-style: italic;
+			font-size: 62px;
 		}
 	}
-
+	.outside-hr {
+		position: relative;
+		top: -35px;
+		width: 32%;
+		margin-bottom: 0;
+	}
+	hr {
+		border-top: 3px solid $secondary_color;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		@media (min-width: 768px) {
+			margin-left: 0;
+		}
+	}
 	.entry-meta {
 		margin-top: 7px;
 
@@ -219,6 +221,13 @@ a.btn-2 {
 }
 .green {
 	color: $primary_color;
+	strong {
+		font-weight: 700;
+		color: $primary_color;
+	}
+	span, li {
+		color: $primary_color;
+	}
 }
 .frm_primary_label {
 	display: none !important;
@@ -236,5 +245,10 @@ a.btn-2 {
 	display: none;
 	@media (min-width: 768px) {
 		display: block;
+	}
+}
+.has-medium-font-size {
+	li, strong {
+		font-size: 1.1em;
 	}
 }

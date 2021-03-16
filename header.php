@@ -86,7 +86,7 @@
 	<?php elseif (is_404()) : ?>
 		<div id="content">
 	<?php elseif (is_archive()) : ?>
-		<header class="banner-header" style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('<?php if (is_array($meta) && isset($meta["image"])){ echo $meta["image"]; } ?>')">
+		<header class="banner-header" style="background-image: url('<?php if (is_array($meta) && isset($meta["image"])){ echo $meta["image"]; } ?>')">
 			<?php the_archive_title( '<h1 class="banner-title">', '</h1>' ); ?>
 		</header><!-- .page-header -->
 	<?php elseif (is_search()) : ?>
@@ -96,7 +96,7 @@
 	<?php else : ?>
 		<div id="content">
 			<?php if (is_home()) : ?>
-				<header class="banner-header" style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('')">
+				<header class="banner-header" style="background-image: url('')">
 					<div class="container">
 					<?php (is_home() ? single_post_title( '<h1 class="banner-title">', '</h1>' ) : the_title( '<h1 class="banner-title">', '</h1>' )); ?>
 					<?php if ( 'post' === get_post_type() && is_single() ) : ?>
@@ -107,14 +107,23 @@
 					</div>
 				</header>
 			<?php else : ?>
-			<header class="banner-header" style="background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('<?php if (is_array($meta) && isset($meta["image"])){ echo $meta["image"]; } ?>')">
+			<header class="banner-header" style="background-image: url('<?php if (is_array($meta) && isset($meta["image"])){ echo $meta["image"]; } ?>')">
 			<div class="container">
-				<?php (is_home() ? single_post_title( '<h1 class="banner-title">', '</h1>' ) : the_title( '<h1 class="banner-title">', '</h1>' )); ?>
+				<?php
+				$firstWord = current(explode(' ', get_the_title($post->ID)));
+				$endWords = strstr(get_the_title($post->ID), " ");
+				if (is_home()) :
+					single_post_title( '<h1 class="banner-title">', '</h1>' );
+				else : 
+					echo '<h1 class="banner-title"><span class="green">'.$firstWord.'</span><br>'.$endWords.'<hr></h1>';
+				endif;
+				?>
 				<?php if ( 'post' === get_post_type() && is_single() ) : ?>
 					<div class="entry-meta">
 						<?php lrm_posted_on(); ?>
 					</div>
 				<?php endif; ?>
 				</div>
+				<hr class="outside-hr">
 			</header>
 	<?php endif; endif; ?>
