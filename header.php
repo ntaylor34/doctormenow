@@ -108,22 +108,25 @@
 				</header>
 			<?php else : ?>
 			<header class="banner-header" style="background-image: url('<?php if (is_array($meta) && isset($meta["image"])){ echo $meta["image"]; } ?>')">
-			<div class="container">
-				<?php
-				$firstWord = current(explode(' ', get_the_title($post->ID)));
-				$endWords = strstr(get_the_title($post->ID), " ");
-				if (is_home()) :
-					single_post_title( '<h1 class="banner-title">', '</h1>' );
-				else : 
-					echo '<h1 class="banner-title"><span class="green">'.$firstWord.'</span><br>'.$endWords.'<hr></h1>';
-				endif;
-				?>
-				<?php if ( 'post' === get_post_type() && is_single() ) : ?>
-					<div class="entry-meta">
-						<?php lrm_posted_on(); ?>
+			<div class="white-bg">
+				<div class="container">
+					<?php
+					$firstWord = current(explode(' ', get_the_title($post->ID)));
+					$endWords = strstr(get_the_title($post->ID), " ");
+					if (is_home()) :
+						single_post_title( '<h1 class="banner-title">', '</h1>' );
+					else : 
+						echo '<h1 class="banner-title"><span class="green">'.$firstWord.'</span><br>'.$endWords.'<hr></h1>';
+					endif;
+					?>
+					<?php if ( 'post' === get_post_type() && is_single() ) : ?>
+						<div class="entry-meta">
+							<?php lrm_posted_on(); ?>
+						</div>
+					<?php endif; ?>
 					</div>
-				<?php endif; ?>
+					<hr class="outside-hr">
 				</div>
-				<hr class="outside-hr">
+				
 			</header>
 	<?php endif; endif; ?>

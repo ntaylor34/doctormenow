@@ -25,12 +25,26 @@
 
 /* Page/Post Header Banner */
 header.banner-header {
-	padding: 120px 0;
-	margin-bottom: 40px;
 	background: $dark;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: 85% 50%;
+	@media (min-width: 768px) {
+		background-position: 78% 50%;
+	}
+	@media (min-width: 1200px) {
+		background-position: 80% 50%;
+	}
+	@media (min-width: 1600px) {
+		background-position: center;
+	}
+	.white-bg {
+		padding: 120px 0;
+		background: rgba(255, 255, 255, 0.7);
+		@media (min-width: 768px) {
+			background: none;
+		}
+	}
 	h1.banner-title {
 		font-size: 45px;
 		display: table;
@@ -42,7 +56,6 @@ header.banner-header {
 		position: relative;
 		top: -35px;
 		width: 32%;
-		margin-bottom: 0;
 	}
 	hr {
 		border-top: 3px solid $secondary_color;

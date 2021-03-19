@@ -7,6 +7,7 @@ body.page {
 		article {
 			.entry-content {
 				img.featured-image {
+					border: 3px solid $secondary_color;
 					@media (min-width: 768px) {
 						width: 270px;
 					}
