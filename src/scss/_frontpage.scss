@@ -4,7 +4,7 @@
 
 #front-page {
     #home-hero {
-      background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0.8) 100%), url('/wp-content/uploads/mobile-hero.jpg');
+      background-image: linear-gradient(to right,rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 0.8) 100%), url('http://doctormenow.flywheelsites.com/wp-content/uploads/mobile-hero.jpg');
       background-repeat: no-repeat;
       background-position: 62%;
       background-color: $light;
@@ -20,7 +20,7 @@
         padding-top: 170px;
       }
       @media (min-width: 992px) {
-        background-image: url('/wp-content/uploads/home-hero.jpg');
+        background-image: url('http://doctormenow.flywheelsites.com/wp-content/uploads/home-hero.jpg');
         background-position: center;
         background-size: cover;
       }
@@ -109,7 +109,7 @@
   }
 
   #covid-statement {
-    background: url('/wp-content/uploads/covid-bg.jpg') center no-repeat;
+    background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/covid-bg.jpg') center no-repeat;
     background-size: cover;
     padding: 100px 0;
     h2, p {
@@ -263,7 +263,7 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('/wp-content/uploads/medical-care-image.jpg') center no-repeat;
+          background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/medical-care-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -277,7 +277,7 @@
           @media (min-width: 768px) {
             flex: 100%;  
           }
-          background: url('/wp-content/uploads/dermatology-image.jpg') center no-repeat;
+          background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/dermatology-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -287,7 +287,7 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('/wp-content/uploads/wellness-prevention-image.jpg') center no-repeat;
+          background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/wellness-prevention-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -301,7 +301,7 @@
           @media (min-width: 768px) {
             flex: 100%;
           }
-          background: url('/wp-content/uploads/urgent-care-image.jpg') center no-repeat;
+          background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/urgent-care-image.jpg') center no-repeat;
           background-size: cover;
         }
       }
@@ -311,7 +311,7 @@
           @media (min-width: 768px) {
             height: inherit;  
           }
-          background: url('/wp-content/uploads/sexual-health-image.jpg') center no-repeat;
+          background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/sexual-health-image.jpg') center no-repeat;
           background-size: cover;
         }
       }

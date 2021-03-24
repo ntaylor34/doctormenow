@@ -20,7 +20,7 @@
 	<hr class="outside-hr">
 	<div class="container">
 		<p>For many people, taking time off work or checking out of school is not an option.  There is also that fear of acquiring illness in a full waiting room. Telemedicine allows you to avoid the travel to the physician office, but rather speak with a doctor from your home or work location at a time convenient for you.</p>
-		<a href="#" class="btn-1">BOOK AN APPOINTMENT</a>
+		<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">BOOK AN APPOINTMENT</a>
 	</div>
 </section><!-- #home-hero -->
 
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<div class="text-center cta">
-			<a href="#" class="btn-1">BOOK AN APPOINTMENT</a>
+			<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">BOOK AN APPOINTMENT</a>
 		</div>
 	</div>
 </section> <!-- #three-steps -->
@@ -96,7 +96,7 @@
 						STD, Drug, & COVID Testing |
 						Prescription Refils | and more...</p>
 					<div class="triangle"></div>
-					<a href="#" class="btn-box">LEARN MORE</a>
+					<a href="http://doctormenow.flywheelsites.com/care-we-provide/" class="btn-box">LEARN MORE</a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
@@ -105,7 +105,7 @@
 					<p class="text-header"><b>How Much Does it Cost?</b></p>
 					<p class="text">With our telemedicine services, we have made it affordable to seek care again, and you can file your receipt with your insurance company.</p>
 					<div class="triangle"></div>
-					<a href="#" class="btn-box">LEARN MORE</a>
+					<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-box">LEARN MORE</a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
@@ -114,7 +114,7 @@
 					<p class="text-header"><b>How DoctorMeNow Works</b></p>
 					<p class="text">Our providers include board-certified physicians, nurse practitioners, and physician assistants that are available through your phone or computer. </p>
 					<div class="triangle"></div>
-					<a href="#" class="btn-box">LEARN MORE</a>
+					<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-box">LEARN MORE</a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-6 col-lg-3">
@@ -122,7 +122,7 @@
 					<img src="/wp-content/uploads/test-tubes-icon.png" alt="icon of three test tubes in a holder in a circle" class="img-fluid">
 					<p class="text-header"><b>Pediatric & Adult Care</b></p>
 					<p class="text">From newborns to adults, we will take care of you and your whole family.</p>
-					<a href="#" class="btn-box">LEARN MORE</a>
+					<a href="http://doctormenow.flywheelsites.com/pediatrics/" class="btn-box">LEARN MORE</a>
 				</div>
 			</div>
 		</div>
@@ -135,7 +135,7 @@
 					<h2>MEDICAL CARE</h2>
 					<p>We treat common symptoms including:  Cough, Congestion, Diarrhea, Fever,  Headache, Nausea, Vomiting, Constipation, Allergies / Hay Fever, Ear Aches, Sinus Infections, Insomnia</p>
 					<div class="btn-container">
-						<a href="#" class="btn-1">Learn More</a>
+						<a href="http://doctormenow.flywheelsites.com/general-practitioner/" class="btn-1">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -144,7 +144,7 @@
 					<h2>DERMATOLOGY</h2>
 					<p>Acne, Rosacea, Cold Sores (HSV), Poison Ivy, Spots, Moles, Rash, Eczema, Psoriasis, Excessive Hair,  Alopecia, Skin Infections, Bruises, Skin Cuts Burns, Sunburns, Melasma</p>
 					<div class="btn-container">
-						<a href="#" class="btn-1">Learn More</a>
+						<a href="http://doctormenow.flywheelsites.com/dermatology/" class="btn-1">Learn More</a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 image" data-aos="fade-left" data-aos-duration="800"></div>
@@ -153,9 +153,9 @@
 				<div class="col-sm-12 col-md-6 image" data-aos="fade-right" data-aos-duration="800"></div>
 				<div class="col-sm-12 col-md-6 content" data-aos="fade-left" data-aos-duration="800">
 					<h2>WELLNESS & PREVENTION</h2>
-					<p>COVID, STD, & Drug Testing, Complete Allergy Testing, Order Lab Tests, Weight Loss, Anti-aging, Wrinkle Treatments, Photoaging Creams, Hormone Therapy</p>
+					<p>COVID-19, STD, and Drug Testing, Complete Allergy Testing, Order Lab Tests, Weight Loss, Anti-aging, Wrinkle Treatments, Photoaging Creams, Hormone Therapy</p>
 					<div class="btn-container">
-						<a href="#" class="btn-1">Learn More</a>
+						<a href="http://doctormenow.flywheelsites.com/care-we-provide/" class="btn-1">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -164,7 +164,7 @@
 					<h2>URGENT CARE</h2>
 					<p>Common Cold, Strep Throat, Pink Eye, Flu, Toothache, Upper Respiratory Tract Infection, Hangover, Urinary Tract Infections (females)</p>
 					<div class="btn-container">
-						<a href="#" class="btn-1">Learn More</a>
+						<a href="http://doctormenow.flywheelsites.com/urgent-care/" class="btn-1">Learn More</a>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 image" data-aos="fade-left" data-aos-duration="800"></div>
@@ -175,7 +175,7 @@
 					<h2>SEXUAL HEALTH</h2>
 					<p>Impotence / Erectile Dysfunction, Menstrual Cramps, Cialis (Tadalafil), Viagra (Sildenafil), Stendra (Avanafil), Levitra (Vardenafil)</p>
 					<div class="btn-container">
-						<a href="#" class="btn-1">Learn More</a>
+						<a href="http://doctormenow.flywheelsites.com/sexual-health/" class="btn-1">Learn More</a>
 					</div>
 				</div>
 			</div>

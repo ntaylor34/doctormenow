@@ -39,7 +39,7 @@
 
 						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>All appointments are NON-refundable.  Please be sure of your appointment date and time before confirming. You may reschedule for an additional $25 charge by contacting us.</p>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 						</div>
 						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>We take all major credit cards, FSA, and HSA cards.</p>
 							</div>
 						</div>
 					</div>
@@ -63,7 +63,7 @@
 						</div>
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>We do not take Insurance, Medicare, or Medicaid. We can send you an invoice that you may file with your insurance company.</p>
 							</div>
 						</div>
 					</div>
@@ -75,7 +75,7 @@
 						</div>
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>Minors must be accompanied by their parent or guardian during the visit.</p>
 							</div>
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 						</div>
 						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>Yes, DoctorMeNow is not a replacement for your primary care doctor.  If you need care right away, can’t leave the home or office, or your PCP does not have an appointment available we are here to help.</p>
 							</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 						</div>
 						<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>Your prescriptions are sent electronically to the pharmacy of your choice.</p>
 							</div>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 						</div>
 						<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
 							<div class="card-body">
-								<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+								<p>We do NOT prescribe narcotics or any other controlled medications.</p>
 							</div>
 						</div>
 					</div>

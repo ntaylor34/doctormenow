@@ -2,16 +2,16 @@
    Footer Styles
    ========================================================================== */
 #faq {
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('/wp-content/uploads/faq-bg.jpg');
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url('http://doctormenow.flywheelsites.com/wp-content/uploads/faq-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15%;  
     padding: 100px 0;
     @media (min-width: 576px) {
-      background-position: left;
+      background-position: top left;
     }
     @media (min-width: 992px) {
-      background-image: url('/wp-content/uploads/faq-bg.jpg');
+      background-image: url('http://doctormenow.flywheelsites.com/wp-content/uploads/faq-bg.jpg');
     }
     .col-sm-12 {
       padding: 0 30px;

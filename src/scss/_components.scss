@@ -4,8 +4,7 @@
 
 /* Breadcrumbs */
 .breadcrumbs {
-	padding: 8px 15px;
-	margin-bottom: 15px;
+	padding: 8px 15px 8px 0;
 	list-style: none;
 	background-color: $light;
 	border-radius: 4px;
@@ -41,7 +40,7 @@ header.banner-header {
 	.white-bg {
 		padding: 120px 0;
 		background: rgba(255, 255, 255, 0.7);
-		@media (min-width: 768px) {
+		@media (min-width: 992px) {
 			background: none;
 		}
 	}
@@ -188,6 +187,7 @@ a.btn-1 {
 	color: $light;
 	font-size: 18px;
 	border-radius: 8px;
+	text-decoration: none !important;
 
 	&:hover {
 		background: $secondary_color;
@@ -242,6 +242,16 @@ a.btn-2 {
 		color: $primary_color;
 	}
 }
+.blue {
+	color: $secondary_color;
+	strong {
+		font-weight: 700;
+		color: $secondary_color;
+	}
+	span, li {
+		color: $secondary_color;
+	}
+}
 .frm_primary_label {
 	display: none !important;
 }
@@ -264,4 +274,9 @@ a.btn-2 {
 	li, strong {
 		font-size: 1.1em;
 	}
+}
+.divider {
+	background: $primary_color;
+	height: 15px;
+	width: 100%;
 }

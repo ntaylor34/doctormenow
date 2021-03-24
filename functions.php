@@ -207,6 +207,8 @@ require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/theme-options.php';
 require get_template_directory() . '/inc/hero-image.php';
+require get_template_directory() . '/inc/nav-color.php';
+require get_template_directory() . '/inc/custom-title.php';
 // Require the Bootstrap Nav-Walker
 require_once( get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php' );
 
@@ -214,3 +216,8 @@ function custom_excerpt_length( $length ) {
 	return 10;
 	}
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function dmn_text_function() {
+	return '<span class="blue">Doctor</span><span class="green">Me</span><span class="blue">Now</span>';
+}
+add_shortcode('dmn_text', 'dmn_text_function');

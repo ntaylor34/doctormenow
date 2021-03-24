@@ -1,13 +1,22 @@
 jQuery.noConflict();
 jQuery(document).ready(function($){
 
-     //Support for second level dropdowns
-     $('.dropdown-sub', this).click(function(e){
+    $('.dropdown-sub', this).click(function(e){
         $('.dropdown-menu', this).toggleClass('show');
     })
     $(document).on('click', '.dropdown', function (e) {
         e.stopPropagation();
     });
+
+    //Mobile Menu
+    $('.navbar-toggle, .mobile-menu-close').click(function(){
+        if ($('.navbar-collapse, .mobile-menu-close').hasClass('opened')) {
+            $('.navbar-collapse, .mobile-menu-close').removeClass('opened');
+        } else {
+            $('.navbar-collapse, .mobile-menu-close').addClass('opened');
+        }
+
+    })
 
     //Mobile Menu
     $('.navbar-toggler, .mobile-menu-close').click(function(){

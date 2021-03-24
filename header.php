@@ -27,6 +27,21 @@
 	endif;
 ?>
 </head>
+<?php
+
+$nc_meta = array_values(get_post_meta($post->ID, 'nc_color', true));
+if (isset($nc_meta)) :
+	?>
+	<style>
+		.nav-link {
+			color: <?php echo $nc_meta[0]; ?> !important;		
+		}
+		.nav-link:hover {
+			color: <?php echo $nc_meta[1]; ?> !important;
+		}
+	</style>
+<?php endif; ?>
+
 
 <body <?php body_class(); ?>>
 
@@ -35,8 +50,8 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'lrm' ); ?></a>
 
 	<header id="masthead" role="banner">
-		<div class="action-bar container">
-			<div class="login-btns">
+		<div class="action-bar">
+			<div class="login-btns container">
 					<a href="#" class="btn-1">Patient Login</a>
 					<a href="" class="btn-1">Providers</a>
 			</div>
@@ -67,7 +82,7 @@
 								'container'       => 'div',
 								'container_class' => 'navbar-collapse',
 								'container_id'    => 'navbarNav',
-								'menu_class'      => 'navbar-nav ml-auto',
+								'menu_class'      => 'navbar-nav',
 								'fallback_cb'     => false,
 								'walker'          => new WP_Bootstrap_Navwalker(),
 							) );
@@ -80,7 +95,9 @@
         <div class="clearfix"></div>
 	</header><!-- #masthead -->
 	
-	<?php $meta = get_post_meta( $post->ID, 'hero', true ); ?>
+	<?php $meta = get_post_meta( $post->ID, 'hero', true ); 
+				$title_meta = get_post_meta( $post->ID, 'custom_title', true);
+	?>
 	<?php if (is_front_page()) : ?>
 		<div id="front-page">
 	<?php elseif (is_404()) : ?>
@@ -111,12 +128,12 @@
 			<div class="white-bg">
 				<div class="container">
 					<?php
-					$firstWord = current(explode(' ', get_the_title($post->ID)));
-					$endWords = strstr(get_the_title($post->ID), " ");
 					if (is_home()) :
 						single_post_title( '<h1 class="banner-title">', '</h1>' );
-					else : 
-						echo '<h1 class="banner-title"><span class="green">'.$firstWord.'</span><br>'.$endWords.'<hr></h1>';
+					elseif (isset($title_meta) && !is_page('how-it-works')) : 
+						echo '<h1 class="banner-title">'.$title_meta.'<hr></h1>';
+					elseif (is_page('how-it-works')) :
+						echo '<h1 class="banner-title">Welcome to Doctor<span class="green">Me</span>Now<hr></h1>';
 					endif;
 					?>
 					<?php if ( 'post' === get_post_type() && is_single() ) : ?>
@@ -126,6 +143,31 @@
 					<?php endif; ?>
 					</div>
 					<hr class="outside-hr">
+					<?php if(is_page('how-it-works')) : ?>
+					<div class="container hiw-hero">
+						<h3 data-aos="fade-right" data-aos-duration="800">Better Healthcare is Our Mission<br>24/7 with or without Insurance</h3>
+						<div class="row">
+							<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
+								<h4>Register Now</h4>
+								<p>Why wait months for an appointment? Register now to have immediate access to our board-certified physicians, nurse practitioners, and physician assistants.</p>
+								<a href="#" class="btn-1">REGISTER NOW</a>
+							</div>
+							<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
+								<h4>Already a Member?</h4>
+								<p>Then you know we are here when you need us most because emergencies happen. Just login to see a doctor within minutes.</p>
+								<a href="#" class="btn-1">LOG IN</a>
+							</div>
+						</div>
+					</div>
+					<?php endif;
+					if (is_page('care-we-provide')) : ?>
+						<div class="container">
+							<div class="row div col-sm-12 col-md-6">
+								<p>For many people, taking time off work or checking out of school is not an option.  There is also that fear of acquiring illness in a full waiting room. Telemedicine allows you to avoid the travel to the physician office, but rather speak with a doctor from your home or work location at a time convenient for you.</p>
+								<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">BOOK AN APPOINTMENT</a>
+							</div>
+						</div>
+					<?php endif; ?>
 				</div>
 				
 			</header>

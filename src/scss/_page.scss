@@ -1,7 +1,19 @@
 /* ==========================================================================
    Page Styles
    ========================================================================== */
-
+.page-id-237 {
+	header.banner-header {
+		@media (min-width: 992px) {
+			background-position: center !important;
+		}
+	}
+}
+.page-id-246 {
+	.btn-1 {
+		margin-right: auto;
+		margin-left: 0;
+	}
+}
 body.page {
 	#main {
 		article {
@@ -18,6 +30,42 @@ body.page {
 
 					@media (min-width: 1200px) {
 						width: 400px;
+					}
+				}
+			}
+			#three-step {
+				padding: 40px 0;
+			}
+			#here-to-help {
+				background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/here-to-help-bg.jpg') center no-repeat;
+				background-size: cover;
+				padding: 50px 0;
+				.col-md-8 {
+					background: $light;
+					padding: 0;
+					.help-header {
+						background: $primary_color;
+						padding: 15px;
+						h2 {
+							color: white;
+						}
+					}
+					.content {
+						padding: 20px;
+					}
+				}
+			}
+			#ways-we-help {
+				.row {
+					margin-top: 50px;
+				}
+				img {
+					width: 100px;
+				}
+				h3 {
+					font-size: 26px;
+					@media (min-width: 992px) {
+						font-size: 34px;
 					}
 				}
 			}
