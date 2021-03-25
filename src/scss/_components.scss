@@ -252,6 +252,16 @@ a.btn-2 {
 		color: $secondary_color;
 	}
 }
+.white {
+	color: $light;
+	strong {
+		font-weight: 700;
+		color: $light;
+	}
+	span, li {
+		color: $light;
+	}
+}
 .frm_primary_label {
 	display: none !important;
 }
@@ -279,4 +289,9 @@ a.btn-2 {
 	background: $primary_color;
 	height: 15px;
 	width: 100%;
+}
+.blue-border {
+	img {
+		border: 2px solid $secondary_color;
+	}
 }

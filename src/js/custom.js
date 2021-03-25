@@ -9,22 +9,13 @@ jQuery(document).ready(function($){
     });
 
     //Mobile Menu
-    $('.navbar-toggle, .mobile-menu-close').click(function(){
-        if ($('.navbar-collapse, .mobile-menu-close').hasClass('opened')) {
-            $('.navbar-collapse, .mobile-menu-close').removeClass('opened');
-        } else {
-            $('.navbar-collapse, .mobile-menu-close').addClass('opened');
-        }
-
-    })
-
-    //Mobile Menu
     $('.navbar-toggler, .mobile-menu-close').click(function(){
         if ($('.navbar-collapse, .mobile-menu-close').hasClass('opened')) {
             $('.navbar-collapse, .mobile-menu-close').removeClass('opened');
         } else {
             $('.navbar-collapse, .mobile-menu-close').addClass('opened');
         }
+
     })
 
     // Add Bootstrap 'img-responsive; class to all images on pages and posts

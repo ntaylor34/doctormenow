@@ -201,9 +201,10 @@ header#masthead {
 							color: $dark;
 							font-size: 7vw;
 							border-radius: 5px;
-
+							white-space: break-spaces;
 							@media (min-width: 768px) {
 								font-size: 4.9vw;
+								white-space: nowrap;
 							}
 							@media (min-width: 992px) {
 								font-size: 2vw;
@@ -296,7 +297,7 @@ header#masthead {
 								@media (min-width: 768px) {
 									position: absolute;
 									width: initial;
-									left: 100%;
+									left: -57%;
 									top: -1px;
 								}
 
