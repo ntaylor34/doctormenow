@@ -6,6 +6,9 @@ body.blog,
 body.search,
 body.archive,
 body.category {
+	.outside-hr {
+		width: 23%;
+	}
 	#main {
 		.no-results {
 			.page-title {

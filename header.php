@@ -113,14 +113,17 @@ if (isset($nc_meta)) :
 	<?php else : ?>
 		<div id="content">
 			<?php if (is_home()) : ?>
-				<header class="banner-header" style="background-image: url('')">
-					<div class="container">
-					<?php (is_home() ? single_post_title( '<h1 class="banner-title">', '</h1>' ) : the_title( '<h1 class="banner-title">', '</h1>' )); ?>
-					<?php if ( 'post' === get_post_type() && is_single() ) : ?>
-						<div class="entry-meta">
-							<?php lrm_posted_on(); ?>
+				<header class="banner-header" style="background-image: url('http://doctormenow.flywheelsites.com/wp-content/uploads/hero-template-dr-4.jpg')">
+					<div class="white-bg">
+						<div class="container">
+						<?php if (is_home()) : echo '<h1 class="banner-title">Blog<hr></h1>'; endif;?>
+						<?php if ( 'post' === get_post_type() && is_single() ) : ?>
+							<div class="entry-meta">
+								<?php lrm_posted_on(); ?>
+							</div>
+						<?php endif; ?>
 						</div>
-					<?php endif; ?>
+						<hr class="outside-hr">
 					</div>
 				</header>
 			<?php else : ?>
