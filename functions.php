@@ -213,7 +213,7 @@ require get_template_directory() . '/inc/custom-title.php';
 require_once( get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php' );
 
 function custom_excerpt_length( $length ) {
-	return 10;
+	return 20;
 	}
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
@@ -221,3 +221,5 @@ function dmn_text_function() {
 	return '<span class="blue">Doctor</span><span class="green">Me</span><span class="blue">Now</span>';
 }
 add_shortcode('dmn_text', 'dmn_text_function');
+
+remove_filter ('the_exceprt', 'wpautop');

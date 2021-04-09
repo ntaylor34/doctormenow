@@ -162,16 +162,7 @@
 											<b><?php echo the_title(); ?></b>
 										</div>
 										<div class="text">
-										<p>
-										<?php the_excerpt( sprintf(
-												/* translators: %s: Name of current post. */
-												wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'lrm' ), array( 'span' => array( 'class' => array() ) ) ),
-												the_title( '<span class="screen-reader-text">"', '"</span>', false )
-											) );
-											wp_link_pages( array(
-												'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'lrm' ),
-												'after'  => '</div>',
-											) ); ?></p>
+										<p><?php echo get_the_excerpt(); ?></p>
 											<a class="read-more" href="<?php echo the_permalink(); ?>">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
 										</div>
 									</div>
