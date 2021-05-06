@@ -146,6 +146,11 @@ if (isset($nc_meta)) :
 					<?php endif; ?>
 					</div>
 					<hr class="outside-hr">
+					<?php if (!is_page('how-it-works') && !is_page('care-we-provide')) : ?>
+					<div class="container">
+						<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">SEE A DOCTOR</a>
+					</div>
+					<?php endif; ?>
 					<?php if(is_page('how-it-works')) : ?>
 					<div class="container hiw-hero">
 						<h3 data-aos="fade-right" data-aos-duration="800">Better Healthcare is Our Mission<br>24/7 with or without Insurance</h3>
@@ -167,7 +172,7 @@ if (isset($nc_meta)) :
 						<div class="container">
 							<div class="row div col-sm-12 col-md-6">
 								<p>For many people, taking time off work or checking out of school is not an option.  There is also that fear of acquiring illness in a full waiting room. Telemedicine allows you to avoid the travel to the physician office, but rather speak with a doctor from your home or work location at a time convenient for you.</p>
-								<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">BOOK AN APPOINTMENT</a>
+								<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">START NOW</a>
 							</div>
 						</div>
 					<?php endif; ?>

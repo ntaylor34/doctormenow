@@ -171,6 +171,12 @@
     }
 }
 footer#site-footer {
+    .footer-cta {
+      &:hover {
+        background: $light;
+        color: $primary_color !important;
+      }
+    }
     .footer-info {
         background: $secondary_color;
         text-align: center;

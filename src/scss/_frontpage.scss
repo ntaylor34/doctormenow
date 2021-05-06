@@ -112,8 +112,14 @@
     background: url('http://doctormenow.flywheelsites.com/wp-content/uploads/covid-bg.jpg') center no-repeat;
     background-size: cover;
     padding: 100px 0;
-    h2, p {
+    h2, p, li {
       color: $light;
+    }
+    a {
+      color: $primary_color;
+      &:hover {
+        color: $accent;
+      }
     }
     b {
       font-size: 24px;
