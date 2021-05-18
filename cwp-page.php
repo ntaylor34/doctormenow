@@ -23,20 +23,22 @@ get_header(); ?>
               <img src="http://doctormenow.flywheelsites.com/wp-content/uploads/stethoscope-icon.png" alt="icon of a stethoscope">
               <h3>GENERAL MEDICAL</h3>
               <div class="content">
-                <p>Family Medicine<br>
-                  Pediatrics<br>
-                  Dermatology<br>
-                  Urgent Care<br>
-                  Sexual Health</p>
+                <p>
+                  <a href="http://development.linkrightmedia.com/doctormenow/family-care-practitioner/">Family Medicine</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/pediatrics/">Pediatrics</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/dermatology/">Dermatology</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/urgent-care/">Urgent Care</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/sexual-health/">Sexual Health</a></p>
               </div>
             </div>
             <div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
               <img src="http://doctormenow.flywheelsites.com/wp-content/uploads/test-tubes-icon-1.png" alt="icon of three test tubes in a holder">
               <h3>LAB TESTING</h3>
               <div class="content content-middle">
-                <p>COVID-19 Testing<br>
-                  Drug Testing<br>
-                  STD Testing<br>
+                <p>
+                  <a href="http://development.linkrightmedia.com/doctormenow/covid-19-testing/">COVID-19 Testing</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/drug-testing/">Drug Testing</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/std-testing/">STD Testing</a><br>
                   Hormone Level Check<br>
                   Blood Work</p>
               </div>
@@ -46,49 +48,14 @@ get_header(); ?>
               <h3>PERSCRIPTIONS AND TREATMENTS</h3>
               <div class="content">
                 <p>New Prescriptions<br>
-                  Prescription Refills<br>
-                  Hormone Replacement<br>
-                  Therapy<br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/prescription-refills/">Prescription Refills</a><br>
+                  <a href="http://development.linkrightmedia.com/doctormenow/hormone-replacement-therapy/">Hormone Replacement Therapy</a><br>
                   Erectile Dysfunction Treatment</p>
               </div>
             </div>
           </div>
         </div>
       </section> <!-- #ways-we-help -->
-      <section id="three-step">
-        <div class="container text-center">
-          <h2>Using Doctor<span class="green">Me</span>Now is as easy as 1-2-3</h2>
-          <p class="subtext">Doctors are ready to help you get the care you need,<br>
-            anywhere and anytime in the United States</p>
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-4">
-              <h3>STEP 1</h3>
-              <div class="content">
-                <h4>REGISTER NOW</h4>
-                <p>Schedule and pay for your appointment.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <h3>STEP 2</h3>
-              <div class="content content-middle">
-                <h4>REQUEST A VISIT</h4>
-                <p>Choose a time/day that is convenient for you. Our physicians are available 24/7. Same day appointments
-                  available.</p>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <h3>STEP 3</h3>
-              <div class="content">
-                <h4>FEEL BETTER</h4>
-                <p>Our healthcare provider will reach out to you.</p>
-              </div>
-            </div>
-          </div>
-          <div class="text-center cta">
-            <a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">SEE A DOCTOR</a>
-          </div>
-        </div>
-      </section> <!-- #three-steps -->
     </div><!-- .entry-content -->
   </article><!-- #post-## -->
 </main><!-- #main -->
