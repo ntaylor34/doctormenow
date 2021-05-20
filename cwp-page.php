@@ -7,7 +7,6 @@
 */
 get_header(); ?>
 <main id="main" role="main">
-  <div class="divider"></div>
   <div class='container'>
     <?php echo "<div class=\"breadcrumbs\">";
 			get_breadcrumbs($post);
