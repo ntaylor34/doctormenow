@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div class="text-center cta">
-			<a href="#" class="btn-1">BOOK AN APPOINTMENT</a>
+			<a href="https://doctormenow.evisit.com/" class="btn-1">BOOK AN APPOINTMENT</a>
 		</div>
 	</div>
 </section> <!-- #three-steps -->

@@ -52,8 +52,8 @@ if (isset($nc_meta)) :
 	<header id="masthead" role="banner">
 		<div class="action-bar">
 			<div class="login-btns container">
-					<a href="#" class="btn-1">Patient Login</a>
-					<a href="" class="btn-1">Providers</a>
+					<a href="https://doctormenow.evisit.com/" class="btn-1">Patient Login</a>
+					<a href="https://doctormenow.evisit.com/" class="btn-1">Providers</a>
 			</div>
 		</div>
 		<div class="container">
@@ -158,12 +158,12 @@ if (isset($nc_meta)) :
 							<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
 								<h4>Register Now</h4>
 								<p>Why wait months for an appointment? Register now to have immediate access to our board-certified physicians, nurse practitioners, and physician assistants.</p>
-								<a href="#" class="btn-1">REGISTER NOW</a>
+								<a href="https://doctormenow.evisit.com/" class="btn-1">REGISTER NOW</a>
 							</div>
 							<div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
 								<h4>Already a Member?</h4>
 								<p>Then you know we are here when you need us most because emergencies happen. Just login to see a doctor within minutes.</p>
-								<a href="#" class="btn-1">LOG IN</a>
+								<a href="https://doctormenow.evisit.com/" class="btn-1">LOG IN</a>
 							</div>
 						</div>
 					</div>
