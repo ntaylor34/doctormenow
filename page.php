@@ -29,7 +29,7 @@ get_header(); ?>
 		<div class="container">
 			<h2>Doctor<span class="white">Me</span>Now</h2>
 			<p>When you have a skin, hair, or nail problem, rest assured that the providers at DoctorMeNow are there for you! Our team is highly-qualified and passionate about helping you feel confident and comfortable in your skin. Contact our team today to schedule an appointment or for more information on our services!</p>
-			<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-2">START NOW</a>
+			<a href="https://doctormenow.evisit.com/" class="btn-2">START NOW</a>
 		</div>
 	</section>
 <?php endif; ?>

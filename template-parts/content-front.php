@@ -20,7 +20,7 @@
 	<hr class="outside-hr">
 	<div class="container">
 		<p>For many people, taking time off work or checking out of school is not an option.  There is also that fear of acquiring illness in a full waiting room. Telemedicine allows you to avoid the travel to the physician office, but rather speak with a doctor from your home or work location at a time convenient for you.</p>
-		<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">START NOW</a>
+		<a href="https://doctormenow.evisit.com/" class="btn-1">START NOW</a>
 	</div>
 </section><!-- #home-hero -->
 
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<div class="text-center cta">
-			<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">SEE A DOCTOR</a>
+			<a href="https://doctormenow.evisit.com/" class="btn-1">SEE A DOCTOR</a>
 		</div>
 	</div>
 </section> <!-- #three-steps -->
@@ -184,6 +184,6 @@
 	</div>
 	<br><br>
 	<div class="text-center cta">
-		<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">START NOW</a>
+		<a href="https://doctormenow.evisit.com/" class="btn-1">START NOW</a>
 	</div>
 </section> <!-- #services -->

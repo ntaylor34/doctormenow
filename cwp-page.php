@@ -23,11 +23,11 @@ get_header(); ?>
               <h3>GENERAL MEDICAL</h3>
               <div class="content">
                 <p>
-                  <a href="http://development.linkrightmedia.com/doctormenow/family-care-practitioner/">Family Medicine</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/pediatrics/">Pediatrics</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/dermatology/">Dermatology</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/urgent-care/">Urgent Care</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/sexual-health/">Sexual Health</a></p>
+                  <a href="http://doctormenow.flywheelsites.com/family-care-practitioner/">Family Medicine</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/pediatrics/">Pediatrics</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/dermatology/">Dermatology</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/urgent-care/">Urgent Care</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/sexual-health/">Sexual Health</a></p>
               </div>
             </div>
             <div class="col-sm-12 col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
@@ -35,9 +35,9 @@ get_header(); ?>
               <h3>LAB TESTING</h3>
               <div class="content content-middle">
                 <p>
-                  <a href="http://development.linkrightmedia.com/doctormenow/covid-19-testing/">COVID-19 Testing</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/drug-testing/">Drug Testing</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/std-testing/">STD Testing</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/covid-19-testing/">COVID-19 Testing</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/drug-testing/">Drug Testing</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/std-testing/">STD Testing</a><br>
                   Hormone Level Check<br>
                   Blood Work</p>
               </div>
@@ -47,8 +47,8 @@ get_header(); ?>
               <h3>PERSCRIPTIONS AND TREATMENTS</h3>
               <div class="content">
                 <p>New Prescriptions<br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/prescription-refills/">Prescription Refills</a><br>
-                  <a href="http://development.linkrightmedia.com/doctormenow/hormone-replacement-therapy/">Hormone Replacement Therapy</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/prescription-refills/">Prescription Refills</a><br>
+                  <a href="http://doctormenow.flywheelsites.com/hormone-replacement-therapy/">Hormone Replacement Therapy</a><br>
                   Erectile Dysfunction Treatment</p>
               </div>
             </div>

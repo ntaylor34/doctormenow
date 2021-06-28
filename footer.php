@@ -155,7 +155,7 @@
 				</div>
 				<br>
 				<div class="text-center">
-					<a href="http://doctormenow.flywheelsites.com/how-it-works/" class="btn-1">START NOW</a>
+					<a href="https://doctormenow.evisit.com/" class="btn-1">START NOW</a>
 				</div>
 			</div>
 		</div>
